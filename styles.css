@@ -42,8 +42,12 @@ body {
   height: 60px;
   top: 80px;
 }
-.box span:last-child {
+.box span:last-child,
+.lid span {
   width: 60px;
   height: 100%;
   left: 170px;
+}
+.lid span {
+  left: 172px; /* sorry, I want perfect alignment, need to handing the padding 2px */
 }
