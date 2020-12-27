@@ -1,5 +1,5 @@
 body {
-  /* background: #333; */
+  background: #333;
   padding-top: 150px;
 }
 
@@ -50,4 +50,21 @@ body {
 }
 .lid span {
   left: 172px; /* sorry, I want perfect alignment, need to handing the padding 2px */
+}
+
+.promo {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  /* height: 0; */
+}
+.promo p {
+  font-size: 24px;
+  margin: 0;
+}
+.promo h2 {
+  font-size: 40px;
+  margin: 0;
 }
