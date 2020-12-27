@@ -58,7 +58,7 @@ body {
   text-align: center;
   position: relative;
   top: 10px;
-  /* height: 0; */
+  height: 0;
 }
 .promo p {
   font-size: 24px;
@@ -67,4 +67,8 @@ body {
 .promo h2 {
   font-size: 40px;
   margin: 0;
+}
+
+.present:hover .lid {
+  top: -100px;
 }
