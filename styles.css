@@ -71,4 +71,5 @@ body {
 
 .present:hover .lid {
   top: -100px;
+  transform: rotateZ(10deg); /* tilts the lid on the left side as well. */
 }
