@@ -59,6 +59,7 @@ body {
   position: relative;
   top: 10px;
   height: 0;
+  transition: all ease-out 0.7s; /* nice transition of the text pop up within 0.7s */
 }
 .promo p {
   font-size: 24px;
