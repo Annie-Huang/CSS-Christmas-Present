@@ -72,5 +72,8 @@ body {
 .present:hover .lid {
   top: -100px;
   transform: rotateZ(10deg); /* tilts the lid on the left side as well. */
-  left: 10px; /* move the lid a bit to the right as well, but this is super subtle, comment the above two properties to see effect */ 
+  left: 10px; /* move the lid a bit to the right as well, but this is super subtle, comment the above two properties to see effect */
+}
+.present:hover .promo {
+  top: -80px;
 }
